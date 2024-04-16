@@ -1,4 +1,4 @@
-const webSocket = new WebSocket("wss://13.233.128.226:3000");
+const webSocket = new WebSocket("ws://13.233.128.226:3000");
 
 webSocket.onopen = function() {
     // i have send the default username as soon as the connection is open here in this function 
